@@ -52,4 +52,7 @@ while true; do
     
 done
 
-echo "Buffer Overflow detected at $i charcaters"
+k=$((i-1))
+
+
+echo "Buffer Overflow detected at $k charcaters"
